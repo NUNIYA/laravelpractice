@@ -9,6 +9,9 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 /*Route::post('/formsubmitted', function () {
     return "Form submitted successfully!";
 });*/
